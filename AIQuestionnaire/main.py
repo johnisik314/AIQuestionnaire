@@ -1,2 +1,2 @@
 print ("Hellow World")
-yoo
+print ("yoo")
