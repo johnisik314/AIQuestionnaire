@@ -2,7 +2,7 @@ import random
 class Person:
     def __init__(self,name,age):
             self.name = name
-            self.age = age
+            self.age = random.randint(0,90)
             self.attributes()
 
     def attributes(self):

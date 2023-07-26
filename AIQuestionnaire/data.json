@@ -9,30 +9,30 @@
         }
     },
     {
-        "name": "Yoo",
-        "age": 6,
+        "name": "Kaith",
+        "age": 13,
         "attributes": {
-            "str": 34,
-            "dex": 15,
+            "str": 25,
+            "dex": 7,
+            "int": 13
+        }
+    },
+    {
+        "name": "Kaith",
+        "age": 44,
+        "attributes": {
+            "str": 8,
+            "dex": 16,
             "int": 6
         }
     },
     {
         "name": "Kaith",
-        "age": 30,
+        "age": 24,
         "attributes": {
-            "str": 20,
-            "dex": 18,
-            "int": 6
-        }
-    },
-    {
-        "name": "Kaith",
-        "age": 30,
-        "attributes": {
-            "str": 21,
-            "dex": 6,
-            "int": 17
+            "str": 22,
+            "dex": 10,
+            "int": 2
         }
     }
 ]
