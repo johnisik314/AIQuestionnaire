@@ -23,3 +23,21 @@ def get(id):
 
     # If the id is not found, return None or an error message
     return "No data found for the given id: {}".format(id)
+
+def next_id():
+    file_path = "AIQuestionnaire\counter.json"
+    
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+
+    counter = data[0]['counter']
+    counter = counter + 1
+
+    # Update the counter value in the data
+    data[0]['counter'] = counter
+
+    # Write the updated JSON data back to the file
+    with open(file_path, 'w') as json_file:
+        json.dump(data, json_file)
+
+    return counter
