@@ -1,6 +1,7 @@
 import json
+import random
 
-# File path to save the JSON data
+# append json, add person
 def writej(data):
     # Load the existing JSON data
     with open("AIQuestionnaire\data.json") as file:
@@ -11,7 +12,7 @@ def writej(data):
     with open("AIQuestionnaire\data.json","w") as file:
         json.dump(jfile,file, indent =4)
 
-#
+# get user info with ID
 def get(id):
     with open("AIQuestionnaire\data.json") as file:
         jfile = json.load(file)
@@ -24,6 +25,7 @@ def get(id):
     # If the id is not found, return None or an error message
     return "No data found for the given id: {}".format(id)
 
+#return counter, then increment it
 def next_id():
     file_path = "AIQuestionnaire\counter.json"
     
@@ -41,3 +43,11 @@ def next_id():
         json.dump(data, json_file)
 
     return counter
+
+def get_name():
+    file_path = "AIQuestionnaire\listNames.json"
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+        return random.choice(data)
+
+    

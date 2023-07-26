@@ -4,9 +4,11 @@
         "name": "John",
         "age": 30,
         "attributes": {
-            "str": 5,
-            "dex": 14,
-            "int": 4
+            "inc": 2,
+            "hob": 4,
+            "heal": 4,
+            "fam": 4,
+            "fri": 7
         }
     },
     {
@@ -14,149 +16,35 @@
         "name": "Kaith",
         "age": 23,
         "attributes": {
-            "str": 4,
-            "dex": 20,
-            "int": 6
+            "inc": 8,
+            "hob": 4,
+            "heal": 9,
+            "fam": 1,
+            "fri": 0
         }
     },
     {
         "id": 2,
-        "name": "Kaith",
-        "age": 37,
+        "name": "Phoebe Evans",
+        "age": 18,
         "attributes": {
-            "str": 20,
-            "dex": 0,
-            "int": 24
+            "inc": 8,
+            "hob": 0,
+            "heal": 6,
+            "fam": 8,
+            "fri": 4
         }
     },
     {
         "id": 3,
-        "name": "Kaith",
-        "age": 57,
+        "name": "Julian Myers",
+        "age": 60,
         "attributes": {
-            "str": 15,
-            "dex": 20,
-            "int": 19
-        }
-    },
-    {
-        "id": 4,
-        "name": "Kaith",
-        "age": 64,
-        "attributes": {
-            "str": 18,
-            "dex": 24,
-            "int": 11
-        }
-    },
-    {
-        "id": 5,
-        "name": "Kaith",
-        "age": 90,
-        "attributes": {
-            "str": 9,
-            "dex": 6,
-            "int": 7
-        }
-    },
-    {
-        "id": 6,
-        "name": "Kaith",
-        "age": 12,
-        "attributes": {
-            "str": 16,
-            "dex": 11,
-            "int": 19
-        }
-    },
-    {
-        "id": 7,
-        "name": "Kaith",
-        "age": 23,
-        "attributes": {
-            "str": 13,
-            "dex": 8,
-            "int": 23
-        }
-    },
-    {
-        "id": 8,
-        "name": "Kaith",
-        "age": 72,
-        "attributes": {
-            "str": 1,
-            "dex": 6,
-            "int": 3
-        }
-    },
-    {
-        "id": 9,
-        "name": "Kaith",
-        "age": 12,
-        "attributes": {
-            "str": 8,
-            "dex": 16,
-            "int": 23
-        }
-    },
-    {
-        "id": 10,
-        "name": "Kaith",
-        "age": 0,
-        "attributes": {
-            "str": 13,
-            "dex": 11,
-            "int": 4
-        }
-    },
-    {
-        "id": 11,
-        "name": "Kaith",
-        "age": 45,
-        "attributes": {
-            "str": 12,
-            "dex": 6,
-            "int": 17
-        }
-    },
-    {
-        "id": 12,
-        "name": "Kaith",
-        "age": 23,
-        "attributes": {
-            "str": 22,
-            "dex": 0,
-            "int": 25
-        }
-    },
-    {
-        "id": 13,
-        "name": "Kaith",
-        "age": 56,
-        "attributes": {
-            "str": 16,
-            "dex": 0,
-            "int": 9
-        }
-    },
-    {
-        "id": 14,
-        "name": "Kaith",
-        "age": 54,
-        "attributes": {
-            "str": 1,
-            "dex": 23,
-            "int": 22
-        }
-    },
-    {
-        "id": 15,
-        "name": "Kaith",
-        "age": 39,
-        "attributes": {
-            "str": 11,
-            "dex": 0,
-            "int": 20
+            "inc": 2,
+            "hob": 9,
+            "heal": 6,
+            "fam": 4,
+            "fri": 6
         }
     }
 ]
