@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "name": "John",
         "age": 30,
         "attributes": {
@@ -9,30 +10,23 @@
         }
     },
     {
+        "id": 5,
         "name": "Kaith",
-        "age": 13,
+        "age": 23,
         "attributes": {
-            "str": 25,
-            "dex": 7,
-            "int": 13
-        }
-    },
-    {
-        "name": "Kaith",
-        "age": 44,
-        "attributes": {
-            "str": 8,
-            "dex": 16,
+            "str": 4,
+            "dex": 20,
             "int": 6
         }
     },
     {
+        "id": 6,
         "name": "Kaith",
-        "age": 24,
+        "age": 37,
         "attributes": {
-            "str": 22,
-            "dex": 10,
-            "int": 2
+            "str": 20,
+            "dex": 0,
+            "int": 24
         }
     }
 ]

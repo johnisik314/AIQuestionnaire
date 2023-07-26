@@ -1,7 +1,8 @@
 import random
 class Person:
-    def __init__(self,name,age):
+    def __init__(self,id,name,age):
             self.name = name
+            self.id = id
             self.age = random.randint(0,90)
             self.attributes()
 
