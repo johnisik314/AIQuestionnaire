@@ -1,0 +1,30 @@
+[
+    {
+      "name": "John",
+      "age": 30,
+      "attributes": {
+        "str": 14,
+        "dex": 20,
+        "int": 8
+      }
+    },
+    {
+      "name": "Alice",
+      "age": 25,
+      "attributes": {
+        "str": 12,
+        "dex": 18,
+        "int": 10
+      }
+    },
+    {
+      "name": "Bob",
+      "age": 35,
+      "attributes": {
+        "str": 16,
+        "dex": 22,
+        "int": 12
+      }
+    }
+  ]
+  
