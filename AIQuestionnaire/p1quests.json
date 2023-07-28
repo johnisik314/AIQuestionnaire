@@ -1,0 +1,9 @@
+[
+    {
+        "quest": "Help a family member with a chore or errand",
+        "prio": 0,
+        "type": {
+            "Family": 1
+        }
+    }
+]

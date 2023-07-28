@@ -9,5 +9,6 @@ print(p1)
 p1.save() #save the person in database
 
 p1.stats() #print stats
-
+#p1.stat_increase("Friendship",3)
+p1.stats() 
 p1.getRandom() #random 3 quest

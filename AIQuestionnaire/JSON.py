@@ -2,14 +2,14 @@ import json
 import random
 
 # append json/people database, add person
-def writej(data):
+def writej(data,path):
     # Load the existing JSON data
-    with open("data.json") as file:
+    with open(path) as file:
         jfile = json.load(file)
     # Append the new data to the existing JSON
     jfile.append(data)
     #write on json file
-    with open("data.json","w") as file:
+    with open(path,"w") as file:
         json.dump(jfile,file, indent =4)
 
 # get user info with ID from databse

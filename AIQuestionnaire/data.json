@@ -502,5 +502,77 @@
             "fam": 6,
             "fri": 4
         }
+    },
+    {
+        "id": 42,
+        "name": "Adalynn Davis",
+        "age": 65,
+        "attributes": {
+            "inc": 5,
+            "hob": 1,
+            "heal": 5,
+            "fam": 1,
+            "fri": 2
+        }
+    },
+    {
+        "id": 43,
+        "name": "Summer Wood",
+        "age": 35,
+        "attributes": {
+            "inc": 1,
+            "hob": 0,
+            "heal": 9,
+            "fam": 0,
+            "fri": 4
+        }
+    },
+    {
+        "id": 44,
+        "name": "Jabari Parker",
+        "age": 15,
+        "attributes": {
+            "inc": 7,
+            "hob": 2,
+            "heal": 3,
+            "fam": 10,
+            "fri": 4
+        }
+    },
+    {
+        "id": 45,
+        "name": "Lyla Johnson",
+        "age": 44,
+        "attributes": {
+            "inc": 5,
+            "hob": 8,
+            "heal": 7,
+            "fam": 4,
+            "fri": 8
+        }
+    },
+    {
+        "id": 46,
+        "name": "Abdullah Phillips",
+        "age": 49,
+        "attributes": {
+            "inc": 9,
+            "hob": 8,
+            "heal": 5,
+            "fam": 3,
+            "fri": 9
+        }
+    },
+    {
+        "id": 47,
+        "name": "Alexandros Martinez",
+        "age": 84,
+        "attributes": {
+            "inc": 7,
+            "hob": 5,
+            "heal": 10,
+            "fam": 9,
+            "fri": 10
+        }
     }
 ]

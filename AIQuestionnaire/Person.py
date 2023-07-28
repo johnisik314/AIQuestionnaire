@@ -34,9 +34,9 @@ class Person:
     #save the person to database
     def save(self):
         data = {"id":self.id,"name": self.name,"age": self.age,"attributes": {"inc": self.inc,"hob": self.hob,"heal": self.heal,"fam": self.fam,"fri": self.fri}}
-        writej(data)
+        writej(data,"data.json")
 
-    #let person pick quest from 3 random quest
+    #let person pick quest from 3 random quest add it to p1quests.json
     def getRandom(self):
         with open('quests.json', 'r') as f:
             quests = json.load(f)
@@ -53,8 +53,23 @@ class Person:
                 chosen_quest = random_quests[int(user_choice) - 1]
                 print(f"You have chosen: {chosen_quest['quest']}")
                 print(f"Quest type: {chosen_quest['type']}")
+                writej(quest,"p1quests.json")
                 break
             else:
                 print("Invalid input. Please enter a valid number (1, 2, or 3).")
 
-        
+    def stat_increase(self,type,incr):
+        match type:
+            case "Health":
+                self.heal += incr
+            case "Family":
+                self.fam+= incr
+            case "Hobby":
+                self.hob += incr
+            case "Friendship":
+                self.fri += incr
+            case "Income":
+                self.inc +=incr
+
+    #take quest id, increment the stat, out quest into compeated quest json
+    #def done_quest(quest_id):
