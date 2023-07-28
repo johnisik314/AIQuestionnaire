@@ -38,7 +38,7 @@ class Person:
 
     #let person pick quest from 3 random quest
     def getRandom(self):
-        with open('AIQuestionnaire\quests.json', 'r') as f:
+        with open('quests.json', 'r') as f:
             quests = json.load(f)
 
         random_quests = random.sample(quests, 3)
