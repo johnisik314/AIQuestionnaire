@@ -26,7 +26,7 @@ class Person:
     def stats(self):
         print(f"Income: {self.inc}")
         print(f"Hobby: {self.hob}")
-        print(f"Heal: {self.heal}")
+        print(f"Health: {self.heal}")
         print(f"Family: {self.fam}")
         print(f"Friends: {self.fri}")
 
@@ -53,6 +53,7 @@ class Person:
                 chosen_quest = random_quests[int(user_choice) - 1]
                 print(f"You have chosen: {chosen_quest['quest']}")
                 print(f"Quest type: {chosen_quest['type']}")
+                quest["id"]=next_Qid()
                 writej(quest,"p1quests.json")
                 break
             else:
@@ -71,5 +72,19 @@ class Person:
             case "Income":
                 self.inc +=incr
 
-    #take quest id, increment the stat, out quest into compeated quest json
-    #def done_quest(quest_id):
+    #take quest id, increment stats, out quest into compeated quest json
+    def done_quest(self,quest_id):
+
+        #get the quest
+        data = get("p1quests.json",quest_id)
+        print(data)
+
+        #stat increases
+        print(data[int("type"))
+        for key, value in data["type"].items():
+            self.stat_increase(key, int(value))
+        #add it to coplete list
+        #writej(data,"compl_quests.json")
+        
+        #erase from quest list
+        #eraseJ("p1quests.json",id)

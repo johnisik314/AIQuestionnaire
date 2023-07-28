@@ -1,9 +1,28 @@
 [
     {
-        "quest": "Help a family member with a chore or errand",
+        "quest": "Cook dinner for your family",
         "prio": 0,
         "type": {
-            "Family": 1
-        }
+            "Family": 1,
+            "Health": 1
+        },
+        "id": 14
+    },
+    {
+        "quest": "Plan and host a game night with friends and family",
+        "prio": 0,
+        "type": {
+            "Friendship": 2,
+            "Hobbies": 1
+        },
+        "id": 15
+    },
+    {
+        "quest": "Read a book or complete a chapter of a book",
+        "prio": 0,
+        "type": {
+            "Hobbies": 1
+        },
+        "id": 16
     }
 ]

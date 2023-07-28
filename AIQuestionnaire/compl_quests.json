@@ -1,1 +1,11 @@
-[]
+[
+    {
+        "quest": "Help a friend with a task or project",
+        "prio": 0,
+        "type": {
+            "Friendship": 3,
+            "Income": 1
+        },
+        "id": 3
+    }
+]

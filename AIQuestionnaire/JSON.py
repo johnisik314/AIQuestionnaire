@@ -12,9 +12,22 @@ def writej(data,path):
     with open(path,"w") as file:
         json.dump(jfile,file, indent =4)
 
-# get user info with ID from databse
-def get(id):
-    with open("data.json") as file:
+def eraseJ(path,id):
+    with open(path,"r") as file:
+        jfile = json.load(file)
+
+    for item in jfile:
+        if item.get("id") == id:
+            jfile.remove(item)
+            break
+
+    with open(path,"w") as file:
+        json.dump(jfile,file,indent=4)
+
+    
+# get user info with ID from databse quest or person
+def get(path,id):
+    with open(path) as file:
         jfile = json.load(file)
         #print(jfile)  # Print the contents of the loaded JSON data
         for item in jfile:
@@ -37,6 +50,24 @@ def next_id():
 
     # Update the counter value in the data
     data[0]['counter'] = counter
+
+    # Write the updated JSON data back to the file
+    with open(file_path, 'w') as json_file:
+        json.dump(data, json_file)
+
+    return counter
+
+def next_Qid():
+    file_path = "quest_count.json"
+    
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+
+    counter = data[0]['count']
+    counter = counter + 1
+
+    # Update the counter value in the data
+    data[0]['count'] = counter
 
     # Write the updated JSON data back to the file
     with open(file_path, 'w') as json_file:
