@@ -1,6 +1,5 @@
 from Person import *
 from JSON import *
-from quests import *
 import random
  
 #person obj
