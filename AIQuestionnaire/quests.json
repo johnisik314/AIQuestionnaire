@@ -1,0 +1,202 @@
+[
+    {
+      "quest": "Go for a 30-minute jog or walk",
+      "type": { "Health": 1, "Friendship": 1 }
+    },
+    {
+      "quest": "Cook a nutritious meal at home",
+      "type": { "Health": 1, "Hobbies": 1 }
+    },
+    {
+      "quest": "Read a book or complete a chapter of a book",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Plan a movie night with friends",
+      "type": { "Friendship": 1, "Hobbies": 1 }
+    },
+    {
+      "quest": "Write a heartfelt letter to a close friend",
+      "type": { "Friendship": 2, "Hobbies": 1 }
+    },
+    {
+      "quest": "Start a blog or YouTube channel about your favorite hobby or topic",
+      "type": { "Hobbies": 1, "Income/Education": 1, "Health": 1 }
+    },
+    {
+      "quest": "Meditate for 10 minutes",
+      "type": { "Health": 1, "Family": 1 }
+    },
+    {
+      "quest": "Host a potluck dinner with friends, including cooking together",
+      "type": { "Friendship": 1, "Hobbies": 1, "Family": 1 }
+    },
+    {
+      "quest": "Help a friend with a task or project",
+      "type": { "Friendship": 3, "Income/Education": 1 }
+    },
+    {
+      "quest": "Play a board game or video game with friends",
+      "type": { "Friendship": 1 }
+    },
+    {
+      "quest": "Attend a networking event or social gathering related to your career",
+      "type": { "Income/Education": 2, "Friendship": 1 }
+    },
+    {
+      "quest": "Take a day off to relax and recharge",
+      "type": { "Health": 1 }
+    },
+    {
+      "quest": "Practice playing a musical instrument",
+      "type": { "Hobbies": 2, "Health": 1 }
+    },
+    {
+      "quest": "Try a new art or craft technique",
+      "type": { "Hobbies": 1, "Health": 1 }
+    },
+    {
+      "quest": "Help a family member with a chore or errand",
+      "type": { "Family": 1 }
+    },
+    {
+      "quest": "Explore a new hiking trail or nature spot",
+      "type": { "Hobbies": 1, "Family": 1 }
+    },
+    {
+      "quest": "Organize a game or sports activity with friends",
+      "type": { "Friendship": 2, "Health": 1 }
+    },
+    {
+      "quest": "Learn a new dance routine or dance style",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Drink 8 glasses of water throughout the day",
+      "type": { "Health": 1 }
+    },
+    {
+      "quest": "Plan and go on a weekend camping trip with friends or family",
+      "type": { "Hobbies": 1, "Friendship": 1, "Health": 1 }
+    },
+    {
+      "quest": "Research potential job opportunities in your field",
+      "type": { "Income/Education": 2, "Health": 1 }
+    },
+    {
+      "quest": "Cook dinner for your family",
+      "type": { "Family": 1, "Health": 1 }
+    },
+    {
+      "quest": "Volunteer for a charitable organization",
+      "type": { "Health": 1, "Friendship": 1 }
+    },
+    {
+      "quest": "Create a budget and track your expenses",
+      "type": { "Income/Education": 1, "Family": 1 }
+    },
+    {
+      "quest": "Plan a family outing or picnic",
+      "type": { "Family": 2 }
+    },
+    {
+      "quest": "Go to the gym and do a full-body workout",
+      "type": { "Health": 1 }
+    },
+    {
+      "quest": "Organize your workspace or living area",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Call a family member and catch up",
+      "type": { "Family": 1, "Friendship": 1 }
+    },
+    {
+      "quest": "Take a class or workshop together with a friend or family member",
+      "type": { "Friendship": 1, "Hobbies": 1, "Income/Education": 1 }
+    },
+    {
+      "quest": "Enroll in a workshop or online course related to your career",
+      "type": { "Income/Education": 2, "Friendship": 1 }
+    },
+    {
+      "quest": "Research a topic of personal interest online",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Try a new healthy recipe",
+      "type": { "Health": 1 }
+    },
+    {
+      "quest": "Write a short blog post or article on a topic of interest",
+      "type": { "Income/Education": 1, "Hobbies": 1 }
+    },
+    {
+      "quest": "Host a charity event or fundraiser with friends and family",
+      "type": { "Friendship": 1, "Hobbies": 1, "Income/Education": 1 }
+    },
+    {
+      "quest": "Take a day trip to explore a nearby town or city",
+      "type": { "Hobbies": 1, "Family": 1 }
+    },
+    {
+      "quest": "Have a deep conversation with a friend",
+      "type": { "Friendship": 3 }
+    },
+    {
+      "quest": "Attend a live concert or performance",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Go on a spontaneous road trip with friends",
+      "type": { "Friendship": 1, "Hobbies": 1 }
+    },
+    {
+      "quest": "Update your resume or LinkedIn profile",
+      "type": { "Income/Education": 2 }
+    },
+    {
+      "quest": "Plan and host a game night with friends and family",
+      "type": { "Friendship": 2, "Hobbies": 1 }
+    },
+    {
+      "quest": "Start a new creative project",
+      "type": { "Hobbies": 1, "Income/Education": 1 }
+    },
+    {
+      "quest": "Go stargazing with friends or family",
+      "type": { "Hobbies": 1, "Family": 1 }
+    },
+    {
+      "quest": "Join a sports league or fitness class",
+      "type": { "Health": 1 }
+    },
+    {
+      "quest": "Take a cooking class or workshop",
+      "type": { "Hobbies": 1, "Income/Education": 1 }
+    },
+    {
+      "quest": "Attend a cultural event or festival in your city",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Visit a museum or art gallery",
+      "type": { "Hobbies": 1 }
+    },
+    {
+      "quest": "Have a tech-free day and spend time outdoors",
+      "type": { "Health": 1 }
+    },
+    {
+      "quest": "Plan a surprise party for a friend or family member",
+      "type": { "Friendship": 1, "Family": 1 }
+    },
+    {
+      "quest": "Learn a new language or practice a foreign language",
+      "type": { "Hobbies": 1, "Income/Education": 1 }
+    },
+    {
+      "quest": "Try a new outdoor activity, like rock climbing or kayaking",
+      "type": { "Hobbies": 1, "Health": 1 }
+    }
+  ]
