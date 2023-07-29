@@ -13,3 +13,4 @@ p1.RandomQuest() #random 3 quest
 p1.fin_quest(currentQuestID()) # complete a quest
 p1.stats() #print stats
 
+#test

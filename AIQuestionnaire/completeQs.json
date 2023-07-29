@@ -115,5 +115,13 @@
             "Family": 1
         },
         "id": 29
+    },
+    {
+        "quest": "Play a board game or video game with friends",
+        "prio": 0,
+        "type": {
+            "Friendship": 1
+        },
+        "id": 30
     }
 ]

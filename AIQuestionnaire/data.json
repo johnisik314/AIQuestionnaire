@@ -1954,5 +1954,17 @@
             "fam": 9,
             "fri": 3
         }
+    },
+    {
+        "id": 163,
+        "name": "Jamal Wright",
+        "age": 77,
+        "attributes": {
+            "inc": 0,
+            "hob": 3,
+            "heal": 9,
+            "fam": 8,
+            "fri": 8
+        }
     }
 ]
