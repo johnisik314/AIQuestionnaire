@@ -1,0 +1,119 @@
+[
+    {
+        "quest": "Help a friend with a task or project",
+        "prio": 0,
+        "type": {
+            "Friendship": 3,
+            "Income": 1
+        },
+        "id": 3
+    },
+    {
+        "quest": "Plan and host a game night with friends and family",
+        "prio": 0,
+        "type": {
+            "Friendship": 2,
+            "Hobby": 1
+        },
+        "id": 15
+    },
+    {
+        "quest": "Attend a networking event or social gathering related to your career",
+        "prio": 0,
+        "type": {
+            "Income": 2,
+            "Friendship": 1
+        },
+        "id": 17
+    },
+    {
+        "quest": "Update your resume or LinkedIn profile",
+        "prio": 0,
+        "type": {
+            "Income": 2
+        },
+        "id": 18
+    },
+    {
+        "quest": "Plan and go on a weekend camping trip with friends or family",
+        "prio": 0,
+        "type": {
+            "Hobby": 1,
+            "Friendship": 1,
+            "Health": 1
+        },
+        "id": 20
+    },
+    {
+        "quest": "Research potential job opportunities in your field",
+        "prio": 0,
+        "type": {
+            "Income": 2,
+            "Health": 1
+        },
+        "id": 21
+    },
+    {
+        "quest": "Learn a new language or practice a foreign language",
+        "prio": 0,
+        "type": {
+            "Hobby": 1,
+            "Income": 1
+        },
+        "id": 23
+    },
+    {
+        "quest": "Update your resume or LinkedIn profile",
+        "prio": 0,
+        "type": {
+            "Income": 2
+        },
+        "id": 24
+    },
+    {
+        "quest": "Host a potluck dinner with friends, including cooking together",
+        "prio": 0,
+        "type": {
+            "Friendship": 1,
+            "Hobby": 1,
+            "Family": 1
+        },
+        "id": 25
+    },
+    {
+        "quest": "Go to the gym and do a full-body workout",
+        "prio": 0,
+        "type": {
+            "Health": 1
+        },
+        "id": 26
+    },
+    {
+        "quest": "Host a potluck dinner with friends, including cooking together",
+        "prio": 0,
+        "type": {
+            "Friendship": 1,
+            "Hobby": 1,
+            "Family": 1
+        },
+        "id": 27
+    },
+    {
+        "quest": "Cook dinner for your family",
+        "prio": 0,
+        "type": {
+            "Family": 1,
+            "Health": 1
+        },
+        "id": 28
+    },
+    {
+        "quest": "Explore a new hiking trail or nature spot",
+        "prio": 0,
+        "type": {
+            "Hobby": 1,
+            "Family": 1
+        },
+        "id": 29
+    }
+]

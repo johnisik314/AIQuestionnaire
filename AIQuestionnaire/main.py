@@ -5,13 +5,11 @@ import random
 #person obj
 p1 = Person("John",random.randint(0,70))
 
-print(p1)
+print(p1) #out personal info
 p1.save() #save the person in database
 
-p1.stats() #print stats
-#p1.getRandom() #random 3 quest
+p1.RandomQuest() #random 3 quest
 
-#p1.stats()
-p1.done_quest(15)
-p1.stats()
+p1.fin_quest(currentQuestID()) # complete a quest
+p1.stats() #print stats
 

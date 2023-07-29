@@ -12,14 +12,14 @@
     "prio": 0,
     "type": {
       "Health": 1,
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
     "quest": "Read a book or complete a chapter of a book",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -27,7 +27,7 @@
     "prio": 0,
     "type": {
       "Friendship": 1,
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -35,14 +35,14 @@
     "prio": 0,
     "type": {
       "Friendship": 2,
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
     "quest": "Start a blog or YouTube channel about your favorite hobby or topic",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Income": 1,
       "Health": 1
     }
@@ -60,7 +60,7 @@
     "prio": 0,
     "type": {
       "Friendship": 1,
-      "Hobbies": 1,
+      "Hobby": 1,
       "Family": 1
     }
   },
@@ -98,7 +98,7 @@
     "quest": "Practice playing a musical instrument",
     "prio": 0,
     "type": {
-      "Hobbies": 2,
+      "Hobby": 2,
       "Health": 1
     }
   },
@@ -106,7 +106,7 @@
     "quest": "Try a new art or craft technique",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Health": 1
     }
   },
@@ -121,7 +121,7 @@
     "quest": "Explore a new hiking trail or nature spot",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Family": 1
     }
   },
@@ -137,7 +137,7 @@
     "quest": "Learn a new dance routine or dance style",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -151,7 +151,7 @@
     "quest": "Plan and go on a weekend camping trip with friends or family",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Friendship": 1,
       "Health": 1
     }
@@ -206,7 +206,7 @@
     "quest": "Organize your workspace or living area",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -222,7 +222,7 @@
     "prio": 0,
     "type": {
       "Friendship": 1,
-      "Hobbies": 1,
+      "Hobby": 1,
       "Income": 1
     }
   },
@@ -238,7 +238,7 @@
     "quest": "Research a topic of personal interest online",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -253,7 +253,7 @@
     "prio": 0,
     "type": {
       "Income": 1,
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -261,7 +261,7 @@
     "prio": 0,
     "type": {
       "Friendship": 1,
-      "Hobbies": 1,
+      "Hobby": 1,
       "Income": 1
     }
   },
@@ -269,7 +269,7 @@
     "quest": "Take a day trip to explore a nearby town or city",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Family": 1
     }
   },
@@ -284,7 +284,7 @@
     "quest": "Attend a live concert or performance",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -292,7 +292,7 @@
     "prio": 0,
     "type": {
       "Friendship": 1,
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -307,14 +307,14 @@
     "prio": 0,
     "type": {
       "Friendship": 2,
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
     "quest": "Start a new creative project",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Income": 1
     }
   },
@@ -322,7 +322,7 @@
     "quest": "Go stargazing with friends or family",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Family": 1
     }
   },
@@ -337,7 +337,7 @@
     "quest": "Take a cooking class or workshop",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Income": 1
     }
   },
@@ -345,14 +345,14 @@
     "quest": "Attend a cultural event or festival in your city",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
     "quest": "Visit a museum or art gallery",
     "prio": 0,
     "type": {
-      "Hobbies": 1
+      "Hobby": 1
     }
   },
   {
@@ -374,7 +374,7 @@
     "quest": "Learn a new language or practice a foreign language",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Income": 1
     }
   },
@@ -382,7 +382,7 @@
     "quest": "Try a new outdoor activity, like rock climbing or kayaking",
     "prio": 0,
     "type": {
-      "Hobbies": 1,
+      "Hobby": 1,
       "Health": 1
     }
   }

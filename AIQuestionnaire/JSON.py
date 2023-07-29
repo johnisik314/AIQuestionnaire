@@ -1,7 +1,9 @@
 import json
 import random
 
-# append json/people database, add person
+##  EDIT DATABASES ##
+
+# add quest or user info from DBs using id
 def writej(data,path):
     # Load the existing JSON data
     with open(path) as file:
@@ -12,6 +14,7 @@ def writej(data,path):
     with open(path,"w") as file:
         json.dump(jfile,file, indent =4)
 
+# erase quest or user info from DBs using id
 def eraseJ(path,id):
     with open(path,"r") as file:
         jfile = json.load(file)
@@ -24,8 +27,7 @@ def eraseJ(path,id):
     with open(path,"w") as file:
         json.dump(jfile,file,indent=4)
 
-    
-# get user info with ID from databse quest or person
+# get quest or user info from DBs using id
 def get(path,id):
     with open(path) as file:
         jfile = json.load(file)
@@ -33,14 +35,52 @@ def get(path,id):
         for item in jfile:
             if item["id"] == id:
                 # Convert the dictionary to a string and return it
-                return str(item)
+                return item
 
     # If the id is not found, return None or an error message
     return "No data found for the given id: {}".format(id)
 
-#return counter, then increment it for person ID in databse
-def next_id():
-    file_path = "counter.json"
+## COUNTERS FOR IDs
+
+#return current user ID (latest: "userCounter.json")
+def currentUserID():
+    file_path = "userCounter.json"
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+
+    return data[0]['counter']
+
+#return counter for people + increment "userCounter.json"
+def nextUserID():
+
+    file_path = "userCounter.json"
+
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+
+    counter = data[0]['counter']
+    counter = counter + 1
+
+    # Update the counter value in the data
+    data[0]['counter'] = counter
+
+    # Write the updated JSON data back to the file
+    with open(file_path, 'w') as json_file:
+        json.dump(data, json_file)
+
+    return counter
+
+#return current quest ID (latest: "questCounter.json")
+def currentQuestID():
+    file_path = "questCounter.json"
+    with open(file_path, 'r') as json_file:
+        data = json.load(json_file)
+
+    return data[0]['counter']
+
+#return next quest id + increment "questCounter.json" 
+def nextQuestID():
+    file_path = "questCounter.json"
     
     with open(file_path, 'r') as json_file:
         data = json.load(json_file)
@@ -57,27 +97,12 @@ def next_id():
 
     return counter
 
-def next_Qid():
-    file_path = "quest_count.json"
-    
-    with open(file_path, 'r') as json_file:
-        data = json.load(json_file)
 
-    counter = data[0]['count']
-    counter = counter + 1
-
-    # Update the counter value in the data
-    data[0]['count'] = counter
-
-    # Write the updated JSON data back to the file
-    with open(file_path, 'w') as json_file:
-        json.dump(data, json_file)
-
-    return counter
+## RANDOM GENERATORS
 
 #return random name
-def get_name():
-    with open("listNames.json", 'r') as json_file:
+def getRandomName():
+    with open("randNames.json", 'r') as json_file:
         data = json.load(json_file)
         return random.choice(data)
 

@@ -1,0 +1,35 @@
+[
+    {
+        "quest": "Cook dinner for your family",
+        "prio": 0,
+        "type": {
+            "Family": 1,
+            "Health": 1
+        },
+        "id": 14
+    },
+    {
+        "quest": "Read a book or complete a chapter of a book",
+        "prio": 0,
+        "type": {
+            "Hobby": 1
+        },
+        "id": 16
+    },
+    {
+        "quest": "Update your resume or LinkedIn profile",
+        "prio": 0,
+        "type": {
+            "Income": 2
+        },
+        "id": 19
+    },
+    {
+        "quest": "Update your resume or LinkedIn profile",
+        "prio": 0,
+        "type": {
+            "Income": 2
+        },
+        "id": 22
+    }
+]
