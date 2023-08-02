@@ -40,6 +40,16 @@ def get(path,id):
     # If the id is not found, return None or an error message
     return "No data found for the given id: {}".format(id)
 
+def getDB():
+    path ="data.json"
+    if os.path.exists(path):
+        with open("data.json") as file:
+            jfile = json.load(file)
+        return jfile
+    else:
+        # If the id is not found, return None or an error message
+        return "No data found at path: {path}"
+
 ## COUNTERS FOR IDs
 
 #return current user ID (latest: "userCounter.json")
