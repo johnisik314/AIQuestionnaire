@@ -3,7 +3,7 @@ import random
 
 ##  EDIT DATABASES ##
 
-# add quest or user info from DBs using id
+# add quest or user info to DBs
 def writej(data,path):
     # Load the existing JSON data
     with open(path) as file:

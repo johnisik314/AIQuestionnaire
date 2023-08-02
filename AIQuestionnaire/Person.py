@@ -95,5 +95,3 @@ class Person:
         
         #erase from quest list
         eraseJ("personalQs.json",quest_id)
-
-        

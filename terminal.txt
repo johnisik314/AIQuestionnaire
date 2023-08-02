@@ -1,0 +1,2 @@
+py main (at D:\Git\AIQuestionnaire\AIQuestionnaire)
+npm start (at D:\Git\AIQuestionnaire\aiquestion-app)

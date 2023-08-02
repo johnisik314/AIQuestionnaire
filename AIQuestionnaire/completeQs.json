@@ -115,5 +115,14 @@
             "Family": 1
         },
         "id": 29
+    },
+    {
+        "quest": "Meditate for 10 minutes",
+        "prio": 0,
+        "type": {
+            "Health": 1,
+            "Family": 1
+        },
+        "id": 30
     }
 ]
