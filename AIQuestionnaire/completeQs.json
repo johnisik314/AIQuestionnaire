@@ -117,11 +117,18 @@
         "id": 29
     },
     {
+<<<<<<< HEAD
         "quest": "Meditate for 10 minutes",
         "prio": 0,
         "type": {
             "Health": 1,
             "Family": 1
+=======
+        "quest": "Play a board game or video game with friends",
+        "prio": 0,
+        "type": {
+            "Friendship": 1
+>>>>>>> 7ed844bad923ef695eccfb183729bb086b960fc7
         },
         "id": 30
     }
