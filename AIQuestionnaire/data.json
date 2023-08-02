@@ -1944,39 +1944,15 @@
         }
     },
     {
-        "id": 162,
-        "name": "Adriana Carter",
-        "age": 44,
+        "id": 166,
+        "name": "Misael Anderson",
+        "age": 60,
         "attributes": {
-            "inc": 9,
+            "inc": 2,
             "hob": 0,
             "heal": 10,
-            "fam": 9,
-            "fri": 3
-        }
-    },
-    {
-<<<<<<< HEAD
-        "id": 164,
-        "name": "Scarlett Martin",
-        "age": 62,
-        "attributes": {
-            "inc": 5,
-            "hob": 5,
-            "heal": 8,
-            "fam": 3,
-            "fri": 10
-=======
-        "id": 163,
-        "name": "Jamal Wright",
-        "age": 77,
-        "attributes": {
-            "inc": 0,
-            "hob": 3,
-            "heal": 9,
-            "fam": 8,
-            "fri": 8
->>>>>>> 7ed844bad923ef695eccfb183729bb086b960fc7
+            "fam": 0,
+            "fri": 7
         }
     }
 ]

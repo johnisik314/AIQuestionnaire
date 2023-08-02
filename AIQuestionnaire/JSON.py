@@ -1,6 +1,6 @@
 import json
 import random
-
+import os
 ##  EDIT DATABASES ##
 
 # add quest or user info to DBs
@@ -52,23 +52,24 @@ def currentUserID():
 
 #return counter for people + increment "userCounter.json"
 def nextUserID():
+    path = "userCounter.json"
+    if os.path.exists(path):
+        with open(path, 'r') as file:
+            data = json.load(file)
 
-    file_path = "userCounter.json"
+        counter = data[0]['counter']
+        counter = counter + 1
 
-    with open(file_path, 'r') as json_file:
-        data = json.load(json_file)
+        # Update the counter value in the data
+        data[0]['counter'] = counter
 
-    counter = data[0]['counter']
-    counter = counter + 1
+        # Write the updated JSON data back to the file
+        with open(path, 'w') as file:
+            json.dump(data, file)
 
-    # Update the counter value in the data
-    data[0]['counter'] = counter
-
-    # Write the updated JSON data back to the file
-    with open(file_path, 'w') as json_file:
-        json.dump(data, json_file)
-
-    return counter
+        return counter
+    else:
+        print(f"File not found: {path}")
 
 #return current quest ID (latest: "questCounter.json")
 def currentQuestID():

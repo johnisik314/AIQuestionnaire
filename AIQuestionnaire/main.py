@@ -2,7 +2,7 @@ from Person import *
 from JSON import *
 import random
  
-#person obj
+print("yoo")
 p1 = Person("John",random.randint(0,70))
 
 print(p1) #out personal info
