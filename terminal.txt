@@ -1,2 +1,10 @@
+##run/stop
 py main (at D:\Git\AIQuestionnaire\AIQuestionnaire)
 npm start (at D:\Git\AIQuestionnaire\aiquestion-app)
+CTRL + C (to stop server)
+
+##github
+git pull "..."
+git add* 
+git commit -m "..."
+git push origin main
