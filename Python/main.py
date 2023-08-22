@@ -1,6 +1,5 @@
 from Person import *
 from JSON import *
-from fetch_data import *
 import random
  
 print("yoo")

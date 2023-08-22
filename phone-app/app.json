@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "newApp",
-    "slug": "newApp",
+    "name": "phone-app",
+    "slug": "phone-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

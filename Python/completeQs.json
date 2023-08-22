@@ -123,5 +123,14 @@
             "Income": 2
         },
         "id": 31
+    },
+    {
+        "quest": "Take a cooking class or workshop",
+        "prio": 0,
+        "type": {
+            "Hobby": 1,
+            "Income": 1
+        },
+        "id": 32
     }
 ]
